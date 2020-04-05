@@ -34,6 +34,7 @@
 			<Item Name="jogos.ico" Type="Document" URL="../Icon/jogos.ico"/>
 			<Item Name="rights.txt" Type="Document" URL="../Icon/rights.txt"/>
 		</Item>
+		<Item Name="simonMessages.lvclass" Type="LVClass" URL="../../Messages/simonMessages/simonMessages.lvclass"/>
 		<Item Name="Player.lvclass" Type="LVClass" URL="../../Player/Player.lvclass"/>
 		<Item Name="Simon_Engine.lvclass" Type="LVClass" URL="../../Simon_Engine/Simon_Engine.lvclass"/>
 		<Item Name="Simon_Game.lvclass" Type="LVClass" URL="../Simon_Game.lvclass"/>
@@ -98,6 +99,9 @@
 				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 				<Item Name="Sort 2D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array.vim"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
 			<Item Name="LED.lvclass" Type="LVClass" URL="../../LED/LED Class/LED.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
