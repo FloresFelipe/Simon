@@ -27,7 +27,6 @@
 			<Item Name="yellowRoundButton.ctl" Type="VI" URL="../UI Controls/yellowRoundButton.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="enableOrDisable.vi" Type="VI" URL="../enableOrDisable.vi"/>
 			<Item Name="Language.vi" Type="VI" URL="../SubVIs/Language.vi"/>
 			<Item Name="About.vi" Type="VI" URL="../SubVIs/About.vi"/>
 		</Item>
@@ -43,12 +42,14 @@
 			<Item Name="rtMenuEnglish.rtm" Type="Document" URL="../rtMenus/rtMenuEnglish.rtm"/>
 			<Item Name="rtMenuPortuguese.rtm" Type="Document" URL="../rtMenus/rtMenuPortuguese.rtm"/>
 		</Item>
-		<Item Name="simonMessages.lvclass" Type="LVClass" URL="../../Messages/simonMessages/simonMessages.lvclass"/>
-		<Item Name="Player.lvclass" Type="LVClass" URL="../../Player/Player.lvclass"/>
-		<Item Name="Simon_Engine.lvclass" Type="LVClass" URL="../../Simon_Engine/Simon_Engine.lvclass"/>
-		<Item Name="Simon_Game.lvclass" Type="LVClass" URL="../Simon_Game.lvclass"/>
-		<Item Name="TextDisplay Class.lvclass" Type="LVClass" URL="../../TextDisplay/TextDisplay Class.lvclass"/>
-		<Item Name="uiControlsMgr.lvclass" Type="LVClass" URL="../../uiControlsMgr/uiControlsMgr.lvclass"/>
+		<Item Name="APIs" Type="Folder">
+			<Item Name="simonMessages.lvclass" Type="LVClass" URL="../../Messages/simonMessages/simonMessages.lvclass"/>
+			<Item Name="Player.lvclass" Type="LVClass" URL="../../Player/Player.lvclass"/>
+			<Item Name="Simon_Engine.lvclass" Type="LVClass" URL="../../Simon_Engine/Simon_Engine.lvclass"/>
+			<Item Name="Simon_Game.lvclass" Type="LVClass" URL="../Simon_Game.lvclass"/>
+			<Item Name="TextDisplay Class.lvclass" Type="LVClass" URL="../../TextDisplay/TextDisplay Class.lvclass"/>
+			<Item Name="uiControlsMgr.lvclass" Type="LVClass" URL="../../uiControlsMgr/uiControlsMgr.lvclass"/>
+		</Item>
 		<Item Name="SG Main.vi" Type="VI" URL="../SG Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
