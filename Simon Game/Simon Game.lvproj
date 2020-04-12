@@ -28,6 +28,8 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="enableOrDisable.vi" Type="VI" URL="../enableOrDisable.vi"/>
+			<Item Name="Language.vi" Type="VI" URL="../SubVIs/Language.vi"/>
+			<Item Name="About.vi" Type="VI" URL="../SubVIs/About.vi"/>
 		</Item>
 		<Item Name="Icon" Type="Folder">
 			<Item Name="jogos.eps" Type="Document" URL="../Icon/jogos.eps"/>
@@ -37,11 +39,16 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="MessageEditor.vi" Type="VI" URL="../../Messages/simonMessages/TestVIs/MessageEditor.vi"/>
 		</Item>
+		<Item Name="Menus" Type="Folder">
+			<Item Name="rtMenuEnglish.rtm" Type="Document" URL="../rtMenus/rtMenuEnglish.rtm"/>
+			<Item Name="rtMenuPortuguese.rtm" Type="Document" URL="../rtMenus/rtMenuPortuguese.rtm"/>
+		</Item>
 		<Item Name="simonMessages.lvclass" Type="LVClass" URL="../../Messages/simonMessages/simonMessages.lvclass"/>
 		<Item Name="Player.lvclass" Type="LVClass" URL="../../Player/Player.lvclass"/>
 		<Item Name="Simon_Engine.lvclass" Type="LVClass" URL="../../Simon_Engine/Simon_Engine.lvclass"/>
 		<Item Name="Simon_Game.lvclass" Type="LVClass" URL="../Simon_Game.lvclass"/>
 		<Item Name="TextDisplay Class.lvclass" Type="LVClass" URL="../../TextDisplay/TextDisplay Class.lvclass"/>
+		<Item Name="uiControlsMgr.lvclass" Type="LVClass" URL="../../uiControlsMgr/uiControlsMgr.lvclass"/>
 		<Item Name="SG Main.vi" Type="VI" URL="../SG Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -101,11 +108,17 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Sort 2D Array - Push Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Push Stack.vi"/>
-				<Item Name="Sort 2D Array - Pop Stack.vi" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array - Pop Stack.vi"/>
-				<Item Name="Sort 2D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 2D Array.vim"/>
-				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 			</Item>
 			<Item Name="LED.lvclass" Type="LVClass" URL="../../LED/LED Class/LED.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -130,7 +143,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2482090B-515C-4EDE-9DCC-3CBF52C2C5B9}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW Simon.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Executable/LabVIEW Simon.exe</Property>
