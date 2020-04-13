@@ -50,6 +50,32 @@
 			<Item Name="TextDisplay Class.lvclass" Type="LVClass" URL="../../TextDisplay/TextDisplay Class.lvclass"/>
 			<Item Name="uiControlsMgr.lvclass" Type="LVClass" URL="../../uiControlsMgr/uiControlsMgr.lvclass"/>
 		</Item>
+		<Item Name="Application" Type="Folder">
+			<Item Name="Application.lvclass" Type="LVClass" URL="../Application/Application.lvclass"/>
+		</Item>
+		<Item Name="Context" Type="Folder">
+			<Item Name="Context.lvclass" Type="LVClass" URL="../Context/Context.lvclass"/>
+		</Item>
+		<Item Name="OOP States" Type="Folder">
+			<Item Name="Exit" Type="Folder">
+				<Item Name="Exit.lvclass" Type="LVClass" URL="../OOP States/Exit/Exit.lvclass"/>
+			</Item>
+			<Item Name="Initialize" Type="Folder">
+				<Item Name="Initialize.lvclass" Type="LVClass" URL="../OOP States/Initialize/Initialize.lvclass"/>
+			</Item>
+			<Item Name="State" Type="Folder">
+				<Item Name="State.lvclass" Type="LVClass" URL="../OOP States/State/State.lvclass"/>
+			</Item>
+			<Item Name="User State 1" Type="Folder">
+				<Item Name="User State 1.lvclass" Type="LVClass" URL="../OOP States/User State 1/User State 1.lvclass"/>
+			</Item>
+			<Item Name="User State 2" Type="Folder">
+				<Item Name="User State 2.lvclass" Type="LVClass" URL="../OOP States/User State 2/User State 2.lvclass"/>
+			</Item>
+			<Item Name="Wait Event" Type="Folder">
+				<Item Name="Wait Event.lvclass" Type="LVClass" URL="../OOP States/Wait Event/Wait Event.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="SG Main.vi" Type="VI" URL="../SG Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -109,7 +135,6 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
@@ -120,13 +145,16 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 			</Item>
 			<Item Name="LED.lvclass" Type="LVClass" URL="../../LED/LED Class/LED.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
-			<Item Name="SG Data.ctl" Type="VI" URL="../TypeDefs/SG Data.ctl"/>
-			<Item Name="SG States.ctl" Type="VI" URL="../TypeDefs/SG States.ctl"/>
 			<Item Name="Sound.lvclass" Type="LVClass" URL="../../Sound/Sound.lvclass"/>
+			<Item Name="ContextData.lvclass" Type="LVClass" URL="../ContextData/ContextData.lvclass"/>
+			<Item Name="SG States.ctl" Type="VI" URL="../TypeDefs/SG States.ctl"/>
+			<Item Name="SG Data.ctl" Type="VI" URL="../TypeDefs/SG Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Executable" Type="EXE">
