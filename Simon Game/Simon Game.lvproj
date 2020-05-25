@@ -46,35 +46,70 @@
 			<Item Name="simonMessages.lvclass" Type="LVClass" URL="../../Messages/simonMessages/simonMessages.lvclass"/>
 			<Item Name="Player.lvclass" Type="LVClass" URL="../../Player/Player.lvclass"/>
 			<Item Name="Simon_Engine.lvclass" Type="LVClass" URL="../../Simon_Engine/Simon_Engine.lvclass"/>
-			<Item Name="Simon_Game.lvclass" Type="LVClass" URL="../Simon_Game.lvclass"/>
 			<Item Name="TextDisplay Class.lvclass" Type="LVClass" URL="../../TextDisplay/TextDisplay Class.lvclass"/>
 			<Item Name="uiControlsMgr.lvclass" Type="LVClass" URL="../../uiControlsMgr/uiControlsMgr.lvclass"/>
 		</Item>
 		<Item Name="Application" Type="Folder">
-			<Item Name="Application.lvclass" Type="LVClass" URL="../Application/Application.lvclass"/>
+			<Item Name="SimonModel.lvclass" Type="LVClass" URL="../Application/SimonModel.lvclass"/>
 		</Item>
-		<Item Name="Context" Type="Folder">
-			<Item Name="Context.lvclass" Type="LVClass" URL="../Context/Context.lvclass"/>
+		<Item Name="ContextData" Type="Folder">
+			<Item Name="ContextData.lvclass" Type="LVClass" URL="../ContextData/ContextData.lvclass"/>
 		</Item>
 		<Item Name="OOP States" Type="Folder">
+			<Item Name="Launch UI" Type="Folder">
+				<Item Name="Launch UI.lvclass" Type="LVClass" URL="../OOP States/Launch UI/Launch UI.lvclass"/>
+			</Item>
+			<Item Name="State" Type="Folder">
+				<Item Name="State.lvclass" Type="LVClass" URL="../OOP States/State/State.lvclass"/>
+			</Item>
+			<Item Name="Wait Event" Type="Folder">
+				<Item Name="Wait Event.lvclass" Type="LVClass" URL="../OOP States/Wait Event/Wait Event.lvclass"/>
+			</Item>
+			<Item Name="Initialize References" Type="Folder">
+				<Item Name="Initialize References.lvclass" Type="LVClass" URL="../OOP States/Initialize References/Initialize References.lvclass"/>
+			</Item>
+			<Item Name="Welcome" Type="Folder">
+				<Item Name="Welcome.lvclass" Type="LVClass" URL="../OOP States/Welcome/Welcome.lvclass"/>
+			</Item>
+			<Item Name="Start Game" Type="Folder">
+				<Item Name="Start Game.lvclass" Type="LVClass" URL="../OOP States/Start Game/Start Game.lvclass"/>
+			</Item>
+			<Item Name="Last" Type="Folder">
+				<Item Name="Last.lvclass" Type="LVClass" URL="../OOP States/Last/Last.lvclass"/>
+			</Item>
+			<Item Name="Longest" Type="Folder">
+				<Item Name="Longest.lvclass" Type="LVClass" URL="../OOP States/Longest/Longest.lvclass"/>
+			</Item>
+			<Item Name="Play Game" Type="Folder">
+				<Item Name="Play Game.lvclass" Type="LVClass" URL="../OOP States/Play Game/Play Game.lvclass"/>
+			</Item>
+			<Item Name="Check Move" Type="Folder">
+				<Item Name="Check Move.lvclass" Type="LVClass" URL="../OOP States/Check Move/Check Move.lvclass"/>
+			</Item>
+			<Item Name="Win" Type="Folder">
+				<Item Name="Win.lvclass" Type="LVClass" URL="../OOP States/Win/Win.lvclass"/>
+			</Item>
+			<Item Name="Lost" Type="Folder">
+				<Item Name="Lost.lvclass" Type="LVClass" URL="../OOP States/Lost/Lost.lvclass"/>
+			</Item>
+			<Item Name="High Scores" Type="Folder">
+				<Item Name="High Scores.lvclass" Type="LVClass" URL="../OOP States/High Scores/High Scores.lvclass"/>
+			</Item>
 			<Item Name="Exit" Type="Folder">
 				<Item Name="Exit.lvclass" Type="LVClass" URL="../OOP States/Exit/Exit.lvclass"/>
 			</Item>
 			<Item Name="Initialize" Type="Folder">
 				<Item Name="Initialize.lvclass" Type="LVClass" URL="../OOP States/Initialize/Initialize.lvclass"/>
 			</Item>
-			<Item Name="State" Type="Folder">
-				<Item Name="State.lvclass" Type="LVClass" URL="../OOP States/State/State.lvclass"/>
+			<Item Name="Handle Menu Actions" Type="Folder">
+				<Item Name="Handle Menu Actions.lvclass" Type="LVClass" URL="../OOP States/Handle Menu Actions/Handle Menu Actions.lvclass"/>
 			</Item>
-			<Item Name="User State 1" Type="Folder">
-				<Item Name="User State 1.lvclass" Type="LVClass" URL="../OOP States/User State 1/User State 1.lvclass"/>
+			<Item Name="Change Level" Type="Folder">
+				<Item Name="Change Level.lvclass" Type="LVClass" URL="../OOP States/Change Level/Change Level.lvclass"/>
 			</Item>
-			<Item Name="User State 2" Type="Folder">
-				<Item Name="User State 2.lvclass" Type="LVClass" URL="../OOP States/User State 2/User State 2.lvclass"/>
-			</Item>
-			<Item Name="Wait Event" Type="Folder">
-				<Item Name="Wait Event.lvclass" Type="LVClass" URL="../OOP States/Wait Event/Wait Event.lvclass"/>
-			</Item>
+		</Item>
+		<Item Name="Context" Type="Folder">
+			<Item Name="Context.lvclass" Type="LVClass" URL="../Context/Context.lvclass"/>
 		</Item>
 		<Item Name="SG Main.vi" Type="VI" URL="../SG Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -152,7 +187,6 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="Sound.lvclass" Type="LVClass" URL="../../Sound/Sound.lvclass"/>
-			<Item Name="ContextData.lvclass" Type="LVClass" URL="../ContextData/ContextData.lvclass"/>
 			<Item Name="SG States.ctl" Type="VI" URL="../TypeDefs/SG States.ctl"/>
 			<Item Name="SG Data.ctl" Type="VI" URL="../TypeDefs/SG Data.ctl"/>
 		</Item>
