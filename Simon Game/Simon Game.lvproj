@@ -15,76 +15,89 @@
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Controls" Type="Folder">
-			<Item Name="blueButton.ctl" Type="VI" URL="../UI Controls/blueButton.ctl"/>
-			<Item Name="gamesSlider.ctl" Type="VI" URL="../UI Controls/gamesSlider.ctl"/>
-			<Item Name="greenButton.ctl" Type="VI" URL="../UI Controls/greenButton.ctl"/>
-			<Item Name="redButton.ctl" Type="VI" URL="../BotoesGenius/redButton.ctl"/>
-			<Item Name="redRoundButton.ctl" Type="VI" URL="../UI Controls/redRoundButton.ctl"/>
-			<Item Name="slideLevelButton.ctl" Type="VI" URL="../UI Controls/slideLevelButton.ctl"/>
-			<Item Name="TextDisplay.ctl" Type="VI" URL="../UI Controls/TextDisplay.ctl"/>
-			<Item Name="yellowButton.ctl" Type="VI" URL="../UI Controls/yellowButton.ctl"/>
-			<Item Name="yellowRoundButton.ctl" Type="VI" URL="../UI Controls/yellowRoundButton.ctl"/>
-		</Item>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Language.vi" Type="VI" URL="../SubVIs/Language.vi"/>
-			<Item Name="About.vi" Type="VI" URL="../SubVIs/About.vi"/>
-		</Item>
-		<Item Name="Icon" Type="Folder">
-			<Item Name="jogos.eps" Type="Document" URL="../Icon/jogos.eps"/>
-			<Item Name="jogos.ico" Type="Document" URL="../Icon/jogos.ico"/>
-			<Item Name="rights.txt" Type="Document" URL="../Icon/rights.txt"/>
-		</Item>
-		<Item Name="Utilities" Type="Folder">
-			<Item Name="MessageEditor.vi" Type="VI" URL="../../Messages/simonMessages/TestVIs/MessageEditor.vi"/>
-		</Item>
-		<Item Name="Menus" Type="Folder">
-			<Item Name="rtMenuEnglish.rtm" Type="Document" URL="../rtMenus/rtMenuEnglish.rtm"/>
-			<Item Name="rtMenuPortuguese.rtm" Type="Document" URL="../rtMenus/rtMenuPortuguese.rtm"/>
-		</Item>
-		<Item Name="APIs" Type="Folder">
-			<Item Name="simonMessages.lvclass" Type="LVClass" URL="../../Messages/simonMessages/simonMessages.lvclass"/>
-			<Item Name="Player.lvclass" Type="LVClass" URL="../../Player/Player.lvclass"/>
-			<Item Name="Simon_Engine.lvclass" Type="LVClass" URL="../../Simon_Engine/Simon_Engine.lvclass"/>
-			<Item Name="TextDisplay Class.lvclass" Type="LVClass" URL="../../TextDisplay/TextDisplay Class.lvclass"/>
-			<Item Name="uiControlsMgr.lvclass" Type="LVClass" URL="../../uiControlsMgr/uiControlsMgr.lvclass"/>
+		<Item Name="Support" Type="Folder">
+			<Item Name="Controls" Type="Folder">
+				<Item Name="blueButton.ctl" Type="VI" URL="../UI Controls/blueButton.ctl"/>
+				<Item Name="gamesSlider.ctl" Type="VI" URL="../UI Controls/gamesSlider.ctl"/>
+				<Item Name="greenButton.ctl" Type="VI" URL="../UI Controls/greenButton.ctl"/>
+				<Item Name="redButton.ctl" Type="VI" URL="../BotoesGenius/redButton.ctl"/>
+				<Item Name="redRoundButton.ctl" Type="VI" URL="../UI Controls/redRoundButton.ctl"/>
+				<Item Name="slideLevelButton.ctl" Type="VI" URL="../UI Controls/slideLevelButton.ctl"/>
+				<Item Name="TextDisplay.ctl" Type="VI" URL="../UI Controls/TextDisplay.ctl"/>
+				<Item Name="yellowButton.ctl" Type="VI" URL="../UI Controls/yellowButton.ctl"/>
+				<Item Name="yellowRoundButton.ctl" Type="VI" URL="../UI Controls/yellowRoundButton.ctl"/>
+			</Item>
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Language.vi" Type="VI" URL="../SubVIs/Language.vi"/>
+				<Item Name="About.vi" Type="VI" URL="../SubVIs/About.vi"/>
+			</Item>
+			<Item Name="Icon" Type="Folder">
+				<Item Name="jogos.eps" Type="Document" URL="../Icon/jogos.eps"/>
+				<Item Name="jogos.ico" Type="Document" URL="../Icon/jogos.ico"/>
+				<Item Name="rights.txt" Type="Document" URL="../Icon/rights.txt"/>
+			</Item>
+			<Item Name="Utilities" Type="Folder">
+				<Item Name="MessageEditor.vi" Type="VI" URL="../../Messages/simonMessages/TestVIs/MessageEditor.vi"/>
+			</Item>
+			<Item Name="Menus" Type="Folder">
+				<Item Name="rtMenuEnglish.rtm" Type="Document" URL="../rtMenus/rtMenuEnglish.rtm"/>
+				<Item Name="rtMenuPortuguese.rtm" Type="Document" URL="../rtMenus/rtMenuPortuguese.rtm"/>
+			</Item>
+			<Item Name="APIs" Type="Folder">
+				<Item Name="simonMessages.lvclass" Type="LVClass" URL="../../Messages/simonMessages/simonMessages.lvclass"/>
+				<Item Name="Player.lvclass" Type="LVClass" URL="../../Player/Player.lvclass"/>
+				<Item Name="Simon_Engine.lvclass" Type="LVClass" URL="../../Simon_Engine/Simon_Engine.lvclass"/>
+				<Item Name="TextDisplay Class.lvclass" Type="LVClass" URL="../../TextDisplay/TextDisplay Class.lvclass"/>
+				<Item Name="uiControlsMgr.lvclass" Type="LVClass" URL="../../uiControlsMgr/uiControlsMgr.lvclass"/>
+			</Item>
+			<Item Name="Configuration Files" Type="Folder">
+				<Item Name="about_english.csv" Type="Document" URL="../data/about_english.csv"/>
+				<Item Name="about_portuguese.csv" Type="Document" URL="../data/about_portuguese.csv"/>
+				<Item Name="captions_english.csv" Type="Document" URL="../data/captions_english.csv"/>
+				<Item Name="captions_portuguese.csv" Type="Document" URL="../data/captions_portuguese.csv"/>
+				<Item Name="messagesEN.dat" Type="Document" URL="../data/messagesEN.dat"/>
+				<Item Name="messagesPT.dat" Type="Document" URL="../data/messagesPT.dat"/>
+			</Item>
 		</Item>
 		<Item Name="Application" Type="Folder">
-			<Item Name="SimonModel.lvclass" Type="LVClass" URL="../Application/SimonModel.lvclass"/>
+			<Item Name="SimonGame.lvclass" Type="LVClass" URL="../Application/SimonGame.lvclass"/>
 		</Item>
 		<Item Name="ContextData" Type="Folder">
 			<Item Name="ContextData.lvclass" Type="LVClass" URL="../ContextData/ContextData.lvclass"/>
 		</Item>
+		<Item Name="Context" Type="Folder">
+			<Item Name="Context.lvclass" Type="LVClass" URL="../Context/Context.lvclass"/>
+		</Item>
 		<Item Name="OOP States" Type="Folder">
-			<Item Name="Launch UI" Type="Folder">
-				<Item Name="Launch UI.lvclass" Type="LVClass" URL="../OOP States/Launch UI/Launch UI.lvclass"/>
-			</Item>
-			<Item Name="State" Type="Folder">
+			<Item Name="State Abstract Class" Type="Folder">
 				<Item Name="State.lvclass" Type="LVClass" URL="../OOP States/State/State.lvclass"/>
-			</Item>
-			<Item Name="Wait Event" Type="Folder">
-				<Item Name="Wait Event.lvclass" Type="LVClass" URL="../OOP States/Wait Event/Wait Event.lvclass"/>
 			</Item>
 			<Item Name="Initialize References" Type="Folder">
 				<Item Name="Initialize References.lvclass" Type="LVClass" URL="../OOP States/Initialize References/Initialize References.lvclass"/>
 			</Item>
+			<Item Name="Launch UI" Type="Folder">
+				<Item Name="Launch UI.lvclass" Type="LVClass" URL="../OOP States/Launch UI/Launch UI.lvclass"/>
+			</Item>
 			<Item Name="Welcome" Type="Folder">
 				<Item Name="Welcome.lvclass" Type="LVClass" URL="../OOP States/Welcome/Welcome.lvclass"/>
 			</Item>
+			<Item Name="Wait Event" Type="Folder">
+				<Item Name="Wait Event.lvclass" Type="LVClass" URL="../OOP States/Wait Event/Wait Event.lvclass"/>
+			</Item>
 			<Item Name="Start Game" Type="Folder">
 				<Item Name="Start Game.lvclass" Type="LVClass" URL="../OOP States/Start Game/Start Game.lvclass"/>
-			</Item>
-			<Item Name="Last" Type="Folder">
-				<Item Name="Last.lvclass" Type="LVClass" URL="../OOP States/Last/Last.lvclass"/>
-			</Item>
-			<Item Name="Longest" Type="Folder">
-				<Item Name="Longest.lvclass" Type="LVClass" URL="../OOP States/Longest/Longest.lvclass"/>
 			</Item>
 			<Item Name="Play Game" Type="Folder">
 				<Item Name="Play Game.lvclass" Type="LVClass" URL="../OOP States/Play Game/Play Game.lvclass"/>
 			</Item>
 			<Item Name="Check Move" Type="Folder">
 				<Item Name="Check Move.lvclass" Type="LVClass" URL="../OOP States/Check Move/Check Move.lvclass"/>
+			</Item>
+			<Item Name="Last" Type="Folder">
+				<Item Name="Last.lvclass" Type="LVClass" URL="../OOP States/Last/Last.lvclass"/>
+			</Item>
+			<Item Name="Longest" Type="Folder">
+				<Item Name="Longest.lvclass" Type="LVClass" URL="../OOP States/Longest/Longest.lvclass"/>
 			</Item>
 			<Item Name="Win" Type="Folder">
 				<Item Name="Win.lvclass" Type="LVClass" URL="../OOP States/Win/Win.lvclass"/>
@@ -98,9 +111,6 @@
 			<Item Name="Exit" Type="Folder">
 				<Item Name="Exit.lvclass" Type="LVClass" URL="../OOP States/Exit/Exit.lvclass"/>
 			</Item>
-			<Item Name="Initialize" Type="Folder">
-				<Item Name="Initialize.lvclass" Type="LVClass" URL="../OOP States/Initialize/Initialize.lvclass"/>
-			</Item>
 			<Item Name="Handle Menu Actions" Type="Folder">
 				<Item Name="Handle Menu Actions.lvclass" Type="LVClass" URL="../OOP States/Handle Menu Actions/Handle Menu Actions.lvclass"/>
 			</Item>
@@ -108,10 +118,9 @@
 				<Item Name="Change Level.lvclass" Type="LVClass" URL="../OOP States/Change Level/Change Level.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="Context" Type="Folder">
-			<Item Name="Context.lvclass" Type="LVClass" URL="../Context/Context.lvclass"/>
+		<Item Name="No OOP implementation" Type="Folder">
+			<Item Name="SG Main.vi" Type="VI" URL="../SG Main.vi"/>
 		</Item>
-		<Item Name="SG Main.vi" Type="VI" URL="../SG Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_ArrWfmsTo1DInterleave.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_ArrWfmsTo1DInterleave.vi"/>
@@ -206,7 +215,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2482090B-515C-4EDE-9DCC-3CBF52C2C5B9}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW Simon.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Executable/LabVIEW Simon.exe</Property>
@@ -215,14 +224,21 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Executable/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon/jogos.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8DBF27F1-00BE-4E67-9FE8-B263CC4F1B7B}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Icon/jogos.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2A7D3ED6-FA98-406C-9274-B5FCA7615885}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SG Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/No OOP implementation/SG Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Support/Configuration Files</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments Brazil Ltda.</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Executable</Property>
 				<Property Name="TgtF_internalName" Type="Str">Executable</Property>
@@ -230,6 +246,57 @@
 				<Property Name="TgtF_productName" Type="Str">Executable</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{BA495252-4399-41CD-86A3-AE53EBDA3B4A}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">LabVIEW Simon.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Simon OOP" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{9B55779D-1D6B-42C1-A8A1-A61584165808}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{293D7623-B4A7-4307-82DE-EFC19E98DF4B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{89D5E854-3DCF-4EE4-98E6-7502706CC209}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Simon OOP</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Simon OOP</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{FCE734B3-5C40-4FE1-B62D-EA3A366F2429}</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Simon Game.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simon OOP/Simon Game.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simon OOP/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Icon/jogos.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2A7D3ED6-FA98-406C-9274-B5FCA7615885}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/No OOP implementation/SG Main.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Application/SimonGame.lvclass/Main.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Support/Configuration Files</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments Brazil Ltda.</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Simon OOP</Property>
+				<Property Name="TgtF_internalName" Type="Str">Simon OOP</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 National Instruments Brazil Ltda.</Property>
+				<Property Name="TgtF_productName" Type="Str">Simon OOP</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D94ED5F2-846D-4392-8EFB-B31D3CC0FA6E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Simon Game.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
