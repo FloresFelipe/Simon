@@ -22,7 +22,7 @@ It is a totally free open-source project, that intends to serve as a reference m
  * **Messages Class** - Encapsulates all messages displayed by the main application. Also encpasulates the translation process so programmer won't care about writing the texts during development, but pull a csv configuration file containing all the texts.
  * **uiControlsMgr Class** - Manages operations on one or several controls in the UI. One example is selectively disabling or enabling controls in the UI and updating their captions depending on the language selected.
 
- ![Project Classes](Documentation/Project Classes.png)
+ ![Project Classes](/Documentation/Project Classes.png)
 
 All the classes mentioned above have their own individual project where they were developed and tested individually. You can check them by opening any of the class folders with on the root directory of this repository.
 
@@ -43,7 +43,7 @@ One important aspect of this design pattern is that each state will be a class, 
 
 Below you find an image of the state Classes
 
-![State Classes](Documentation/State Classes.png)
+![State Classes](/Documentation/State Classes.png)
 
 
 ## The Game
@@ -82,8 +82,8 @@ About dialogs are great to provide general information about the application in 
 
 There are still several points I wanted to work on with this project so it will be keeping update as I find some time to work with it. I'm going to list some of them and they will help me on the next releases documentation.
 
-- [] Completely detach UI from the State Machine code so we can try differents UIs in the future.
-- [] Use the abstracted methods to implement default functionality such as error and state logging.
-- [] Check where I can get a higher level of abstaction and implement abstarct classes (kind of usage of the Dependency Inversion principle)
-- [] Store control states in a configuration file (probably INI or XML)
-- [] Implement the Test Cases for the lower lever classes and also check how it would work with the state classes. UTF is considered but I'll aslo look for different tools that may be used.
+- [ ] Completely detach UI from the State Machine code so we can try differents UIs in the future.
+- [ ] Use the abstracted methods to implement default functionality such as error and state logging.
+- [ ] Check where I can get a higher level of abstaction and implement abstarct classes (kind of usage of the Dependency Inversion principle)
+- [ ] Store control states in a configuration file (probably INI or XML)
+- [ ] Implement the Test Cases for the lower lever classes and also check how it would work with the state classes. UTF is considered but I'll aslo look for different tools that may be used.
