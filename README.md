@@ -6,7 +6,13 @@ This project is being devolped as practical way for me to better understand how 
 
 It is a totally free open-source project, that intends to serve as a reference material of study for me and for anyone who wants.
 
+To run the game, go to Simon **Game>>Simon Game.lvproject**. When it is opened, go to **Applicaiton>>Simon Game.lvclass>>Main.vi**
 
+There is also a non Object-Oriented State Machine implementation. To open it in Simon Game project go to  **No OOP implementation>>SG Main.vi**
+
+![Simon Implementations](/Documentation/LVProject.png)
+
+Both implementations are functional and have their own build specifications in case you want to run an exectuable of them.
 
 ## LabVIEW Classes
 
@@ -87,3 +93,4 @@ There are still several points I wanted to work on with this project so it will 
 - [ ] Check where I can get a higher level of abstaction and implement abstarct classes (kind of usage of the Dependency Inversion principle)
 - [ ] Store control states in a configuration file (probably INI or XML)
 - [ ] Implement the Test Cases for the lower lever classes and also check how it would work with the state classes. UTF is considered but I'll aslo look for different tools that may be used.
+- [ ] Implement a splash screen
