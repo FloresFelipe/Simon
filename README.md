@@ -22,7 +22,7 @@ It is a totally free open-source project, that intends to serve as a reference m
  * **Messages Class** - Encapsulates all messages displayed by the main application. Also encpasulates the translation process so programmer won't care about writing the texts during development, but pull a csv configuration file containing all the texts.
  * **uiControlsMgr Class** - Manages operations on one or several controls in the UI. One example is selectively disabling or enabling controls in the UI and updating their captions depending on the language selected.
 
- ![Project Classes](/Documentation/Project Classes.png)
+ ![Project Classes](/Documentation/ProjectClasses.png)
 
 All the classes mentioned above have their own individual project where they were developed and tested individually. You can check them by opening any of the class folders with on the root directory of this repository.
 
@@ -43,7 +43,7 @@ One important aspect of this design pattern is that each state will be a class, 
 
 Below you find an image of the state Classes
 
-![State Classes](/Documentation/State Classes.png)
+![State Classes](/Documentation/StateClasses.png)
 
 
 ## The Game
@@ -61,7 +61,7 @@ What if I miss the sequence? you lose and the game shows you the high score list
 
 What if I was not aware of the sequence and want to repeat it? Click the LAST button to play the last the sequence played.
 
-![Last Sequence](/Documentation/PlayingLast.vi)
+![Last Sequence](/Documentation/PlayingLast.gif)
 
 If you want to see the longest sequence ever played in a specific execution of the application, click the LONGEST button.
 
