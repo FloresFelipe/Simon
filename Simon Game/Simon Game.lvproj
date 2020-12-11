@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -205,6 +205,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{6FDD51D5-EE73-4285-8725-71A909A7F26C}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D6350189-D798-4CA3-8019-3294E068F7C5}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A0D0CEF4-613E-4F17-997B-1DAA92A05DA0}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Executable</Property>
@@ -253,6 +254,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{9B55779D-1D6B-42C1-A8A1-A61584165808}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{293D7623-B4A7-4307-82DE-EFC19E98DF4B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{89D5E854-3DCF-4EE4-98E6-7502706CC209}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Simon OOP</Property>
@@ -263,7 +265,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FCE734B3-5C40-4FE1-B62D-EA3A366F2429}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simon Game.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simon OOP/Simon Game.exe</Property>

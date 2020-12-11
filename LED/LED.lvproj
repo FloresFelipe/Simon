@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str">Project created to program and test a class called LED.</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -16,7 +16,6 @@
 		<Item Name="TestVIs" Type="Folder">
 			<Item Name="testLedBlink.vi" Type="VI" URL="../TestVIs/testLedBlink.vi"/>
 		</Item>
-		<Item Name="Sound.lvclass" Type="LVClass" URL="../../Sound/Sound.lvclass"/>
 		<Item Name="LED.lvclass" Type="LVClass" URL="../LED Class/LED.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -69,6 +68,7 @@
 			</Item>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Sound.lvclass" Type="LVClass" URL="../../Sound/Sound.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
